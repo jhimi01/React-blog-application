@@ -1,0 +1,9 @@
+.header{
+    margin-top: 90px;
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
