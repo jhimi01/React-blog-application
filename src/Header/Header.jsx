@@ -1,7 +1,5 @@
 import React from "react";
 import "./Header.css";
-// import video from './../public/pexels-pixabay-856479-4096x2160-25fps.mp4'
-// import myVideo from './../assests/myvideio.mp4';
 import myVideo2 from "./../assests/sky.mp4";
 import { useRef } from "react";
 import { useEffect } from "react";
