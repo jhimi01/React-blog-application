@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">About ME</span>
+        <span className="sidebarTitle">About</span>
         <img
           className="sidebarImg"
           src="https://static.vecteezy.com/system/resources/previews/002/098/796/original/welcome-to-bangladesh-postcard-beautiful-landscape-view-with-famous-building-landmark-travel-and-safari-concept-of-asia-around-the-world-illustration-vector.jpg"
