@@ -1,0 +1,60 @@
+[
+       {
+          "id": 1,
+          "name":"Dhaka",
+          "image":"https://images.unsplash.com/photo-1624395148974-f929045c9093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80",
+          "details":"Dhaka is the capital and largest city of Bangladesh. It is known for its rich history, vibrant culture, and bustling street markets. Popular tourist attractions include the Ahsan Manzil palace, Lalbagh Fort, and the National Museum of Bangladesh."
+       },
+       {
+          "id": 2,
+          "name":"Cox's Bazar",
+          "image":"https://images.unsplash.com/photo-1582650625119-3a31f8fa2699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+          "details":"Cox's Bazar is a town on the southeast coast of Bangladesh. It is home to the world's longest natural beach, which stretches over 120 km. Other attractions include the Himchori Waterfall, the Cox's Bazar Lighthouse, and the Laboni Beach."
+       },
+       {
+          "id": 3,
+          "name":"Sundarbans",
+          "image":"https://images.unsplash.com/photo-1601146580645-55b64ab6551d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "details":"The Sundarbans is a mangrove forest in southwestern Bangladesh. It is home to the Bengal tiger, as well as other endangered species such as the saltwater crocodile and the Indian python. Visitors can take boat tours to explore the forest and observe wildlife."
+       },
+       {
+          "id": 4,
+          "name":"Srimangal",
+          "image":"https://images.pexels.com/photos/7185237/pexels-photo-7185237.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "details":"Srimangal is a small town in northeastern Bangladesh known for its tea plantations and natural beauty. Popular attractions include the Lawachara National Park, the Madhabpur Lake, and the Baikka Beel Wetland Sanctuary."
+       },
+       {
+          "id": 5,
+          "name":"Rangamati",
+          "image":"https://images.unsplash.com/photo-1645985926275-d2184d7c2d5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "details":"Rangamati is a hilly district in southeastern Bangladesh known for its natural beauty and cultural diversity. Popular attractions include the Kaptai Lake, the Hanging Bridge, and the Chakma Rajbari Palace."
+       },
+       {
+          "id": 6,
+          "name":"Kuakata",
+          "image":"https://images.unsplash.com/photo-1602300680863-e2a43709f81a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+          "details":"Kuakata is a seaside town in southwestern Bangladesh known for its panoramic sea views and beautiful sunsets. Popular attractions include the Kuakata Beach, the Fatrar Char Island, and the Gangamati Reserved Forest."
+       },
+       {
+          "id": 7,
+          "name":"Sylhet",
+          "image":"https://images.unsplash.com/photo-1634962546038-b7eddb268dd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80",
+          "details":"Sylhet is a city in northeastern Bangladesh known for its natural beauty and rich cultural heritage. Popular attractions include the Shrine of Hazrat Shah Jalal, the Jaflong Valley, and the Lalakhal Scenic Spot."
+       },
+       {
+          "id": 8,
+          "name":"Bandarban",
+          "image":"https://images.unsplash.com/photo-1585123388867-3bfe6dd4bdbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=801&q=80",
+          "details":"Bandarban is a hilly district in southeastern Bangladesh known for its scenic beauty and adventurous activities. Popular attractions include the Nilgiri Mountain, the Chimbuk Hill, and the Boga Lake."
+       },
+       {
+          "id": 9,
+          "name":"Chittagong",
+          "image":"https://images.unsplash.com/photo-1560279268-93a6f216503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+          "details":"Chittagong is a city in southeastern Bangladesh, located on the Bay of Bengal. It is the country's second-largest city and a major port, known for its busy commercial and industrial activity. The city is also home to several historical and cultural landmarks, including the Chittagong Ethnological Museum, the Shrine of Bayazid Bostami, and the World War II Cemetery. The surrounding Chittagong Hill Tracts are known for their natural beauty and diverse ethnic communities."
+       },{ 
+          "id": 10,
+          "name":"Lalbagh Fort",
+          "image":"https://images.unsplash.com/photo-1662563013196-f71e724704aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1029&q=80",
+          "details":"This is an old fort located in the heart of Dhaka, the capital city of Bangladesh. It is a popular tourist spot, known for its Mughal architecture and beautiful gardens."
+       }] 

@@ -11,7 +11,7 @@ const Sidebar = () => {
           src="https://static.vecteezy.com/system/resources/previews/002/098/796/original/welcome-to-bangladesh-postcard-beautiful-landscape-view-with-famous-building-landmark-travel-and-safari-concept-of-asia-around-the-world-illustration-vector.jpg"
           alt=""
         />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p>Welcome to our country! We are glad to have you here and hope you enjoy your time experiencing all the wonderful things our nation has to offer.</p>
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">Category</span>
