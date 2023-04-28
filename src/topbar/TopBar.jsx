@@ -1,5 +1,6 @@
 import React from 'react';
 import './TopBar.css'
+import { NavLink } from 'react-router-dom';
 const TopBar = () => {
     return (
          <div className="top">
@@ -9,14 +10,15 @@ const TopBar = () => {
  <i className="topIcon fa-brands fa-square-instagram"></i>
  <i className="topIcon fa-brands fa-square-pinterest"></i>
  </div>
+
  <div className="topCenter">
-    <ul className="topList">
-        <li className="topListItem">Home</li>
-        <li className="topListItem">About</li>
-        <li className="topListItem">Contact</li>
-        <li className="topListItem">Write</li>
-        <li className="topListItem">LogOut</li>
-    </ul>
+    <nav className="topList">
+    <NavLink to='/' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Home</span> </NavLink>
+    <NavLink to='/about' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>About</span> </NavLink>
+    <NavLink to='/hotels' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Hotels</span> </NavLink>
+    <NavLink to='/contact' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Contact</span> </NavLink>
+    <NavLink to='/logout' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Logout</span> </NavLink>
+    </nav>
  </div>
  <div className="topRight">
  <img className='topimg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3jBdL0n-VqTTzcyfwLfRi0xxaK-ZNOc3sqw&usqp=CAU" alt="" />

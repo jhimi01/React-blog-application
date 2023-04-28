@@ -7,7 +7,7 @@ const Post = () => {
     const [places, setPlaces] = useState([])
     const [displayedPlaces, setDisplayedPlaces] = useState(4);
     useEffect(()=>{
-        fetch('http://localhost:5000/places')
+        fetch('/place.json')
         .then(res => res.json())
         .then(data => setPlaces(data))
     },[])

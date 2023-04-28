@@ -1,0 +1,36 @@
+
+
+.viewBanner{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.nameview {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.content{
+  padding: 25px;
+  line-height: 28px;
+}
+.details-view{
+    text-indent: 25px;
+    font-size: 20px;
+}
+.details-view::first-letter {
+    font-size: 1.8em;
+    /* color: blue; */
+  }
+  .Establishment{
+    margin: 15px 0;
+    color: #333;
+    font-size: 22px;
+  }
