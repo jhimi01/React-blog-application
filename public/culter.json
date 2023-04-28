@@ -1,0 +1,165 @@
+[
+  {
+    "id": 15,
+    "name": "Rice and curry",
+    "description": "Rice and curry is a staple dish in Bangladeshi cuisine. It typically includes a plate of boiled rice and several side dishes of meat, fish, or vegetables cooked in a spicy sauce.",
+    "image": "./images/ricecurry.jpg",
+    "category": "food"
+  },
+  {
+    "id": 16,
+    "name": "Biryani",
+    "description": "Biryani is a popular rice-based dish that originated in the Indian subcontinent. It is typically made with long-grain rice, meat or vegetables, and a variety of spices and seasonings.",
+    "image": "./images/biriyani.jpg",
+    "category": "food"
+  },
+  {
+    "id": 14,
+    "name": "Animation",
+    "description": "The animation industry in Bangladesh is still in its early stages, but it has a growing number of talented artists and studios producing short films and advertisements.",
+    "image": "./images/animation.jpg",
+    "category": "cinema"
+  },
+  {
+    "id": 17,
+    "name": "Fish dishes",
+    "description": "Bangladesh is known for its variety of freshwater fish, and many traditional dishes feature fish as the main ingredient. Popular fish dishes include hilsa curry, pabda jhol, and rui maacher jhol.",
+    "image": "./images/fishcurry.jpg",
+    "category": "food"
+  },{
+        "id": 18,
+        "name": "Street food",
+        "description": "Bangladesh has a thriving street food culture, with vendors selling a variety of snacks and quick meals on the streets of cities and towns. Popular street foods include fuchka, jhal muri, and chotpoti.",
+        "image": "./images/streetfood.jpg",
+        "category": "food"
+      }, {
+        "id": 22,
+        "name": "Jari",
+        "description": "Jari is a popular dance form from the Sylhet region of Bangladesh. It is usually performed by women and features intricate footwork and graceful movements.",
+        "image": "./images/jari.jpg",
+        "category": "dance"
+      },
+      {
+        "id": 19,
+        "name": "Sweets and desserts",
+        "description": "Bangladeshi cuisine also has a variety of sweet dishes and desserts, often made with milk, sugar, and spices. Popular sweets include rasgulla, sandesh, and mishti doi.",
+        "image": "./images/sweet.jpg",
+        "category": "food"
+      },
+      {
+        "id": 20,
+        "name": "Baul",
+        "description": "Baul is a form of folk music and dance that originated in Bengal. It is characterized by simple, soulful melodies and lyrics that express a philosophy of love and spirituality. The dance is often accompanied by the ektara, a one-stringed instrument.",
+        "image": "./images/dance1.jpg",
+        "category": "dance"
+      },
+      {
+        "id": 21,
+        "name": "Gambhira",
+        "description": "Gambhira is a traditional dance form from the northern region of Bangladesh. It is typically performed during religious festivals and features lively, energetic movements and music.",
+        "image": "./images/Gambhira.jpg",
+        "category": "dance"
+      },
+     {
+        "id": 12,
+        "name": "Art films",
+        "description": "Bangladesh also has a growing industry of independent and art films, which focus on social and political issues and often have a more experimental style. These films are usually shown at film festivals and specialized theaters.",
+        "image": "./images/artdi.jpg",
+        "category": "cinema"
+      },
+      {
+        "id": 7,
+        "name": "Rabindra Sangeet",
+        "description": "Rabindra Sangeet is a genre of Bangladeshi music that features songs written and composed by Rabindranath Tagore. It has a wide range of emotions and themes, and is popular among all age groups.",
+        "image": "./images/robind.jpg",
+        "category": "music"
+      },
+      {
+        "id": 23,
+        "name": "Lathi",
+        "description": "Lathi is a martial art and dance form that originated in Bengal. It involves the use of a long bamboo stick, or lathi, and is characterized by fluid, flowing movements.",
+        "image": "./images/dance1.jpg",
+        "category": "dance"
+      },
+      {
+        "id": 2,
+        "name": "Football",
+        "description": "Football is also a popular sport in Bangladesh, with the national team participating in various international tournaments.",
+        "image": "./images/football.jpg",
+        "category": "sport"
+      },
+      {
+        "id": 4,
+        "name": "Kabaddi",
+        "description": "Kabaddi is a contact sport that originated in South Asia, and it is played extensively in Bangladesh. The national team has won several gold medals in the Asian Games.",
+        "image": "./images/kabadi.jpg",
+        "category": "sport"
+      },
+      {
+        "id": 8,
+        "name": "Adhunik",
+        "description": "Adhunik is a modern genre of Bangladeshi music that emerged in the 20th century. It features a fusion of western and eastern musical styles, and has a diverse range of themes and emotions.",
+        "image": "./images/music1.jpg",
+        "category": "music"
+      },
+      {
+        "id": 5,
+        "name": "Basketball",
+        "description": "Basketball is a relatively new sport in Bangladesh, but it is gaining popularity among the youth. The national team has participated in several international tournaments.",
+        "image": "./images/basketball.jpg",
+        "category": "sport"
+      },
+      {
+        "id": 6,
+        "name": "Nazrul Geeti",
+        "description": "Nazrul Geeti is a genre of Bangladeshi music that incorporates poetry by Kazi Nazrul Islam. It has a strong patriotic and social message, and is popular among people of all ages.",
+        "image": "./images/NazrulGeeti.jpg",
+        "category": "music"
+      },
+      
+      {
+        "id": 9,
+        "name": "Folk",
+        "description": "Folk music in Bangladesh reflects the country's rich cultural heritage. It includes various traditional styles and instruments, and has a strong connection to rural life and customs.",
+        "image": "./images/Folk.jpg","category": "music"
+      },
+      {
+        "id": 10,
+        "name": "Rock",
+        "description": "Rock music has a growing following in Bangladesh, particularly among the youth. It features a variety of styles and influences, and often addresses social and political issues.",
+        "image": "./images/rock.jpg",
+        "category": "sport"
+      },
+      {
+        "id": 3,
+        "name": "Hockey",
+        "description": "Hockey is played by both men and women in Bangladesh, and the national team has had some success in international competitions.",
+        "image": "./images/Hockey.jpg",
+        "category": "sport"
+      },
+      {
+        "id": 11,
+        "name": "Dhallywood",
+        "description": "Dhallywood is the nickname for the Bangladeshi film industry, which is centered in the capital city of Dhaka. It produces a large number of commercial films each year, ranging from action and romance to drama and comedy.",
+        "image": "./images/cimena.jpg",
+        "category": "cinema"
+      },
+      
+      {
+        "id": 13,
+        "name": "Documentaries",
+        "description": "Documentary filmmaking has a long tradition in Bangladesh, and many filmmakers have used the medium to explore various aspects of the country's history, culture, and society.",
+        "image": "./images/socumentary.jpg",
+        "category": "cinema"
+      },{
+        "id": 1,
+        "name": "Cricket",
+        "description": "Cricket is the most popular sport in Bangladesh. The national team is considered to be one of the rising powers of international cricket.",
+        "image": "./images/cricket.jpeg",
+        "category": "sport"
+      }
+      
+      
+    ]
+
+  
