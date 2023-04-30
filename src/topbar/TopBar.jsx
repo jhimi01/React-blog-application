@@ -6,7 +6,8 @@ const TopBar = () => {
   const { user, logOut } = useContext(AuthContext)
     
 
-  const logouthandler =() => {
+  const logouthandler =(e) => {
+    e.preventDefault()
     logOut()
   }
 
@@ -25,7 +26,8 @@ const TopBar = () => {
     <NavLink to='/about' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>About</span> </NavLink>
     <NavLink to='/hotels' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Hotels</span> </NavLink>
     <NavLink to='/contact' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Contact</span> </NavLink>
-    <Link to='/login' className="spanish">{user ? <span onClick={logouthandler}>Logout</span> : <span>Login</span> }</Link>
+    {user ?  <button onClick={logouthandler}>Logout</button> :
+     <Link to='/login' className="spanish"><span>Login</span></Link> }
     </nav>
  </div>
  <div className="topRight">
