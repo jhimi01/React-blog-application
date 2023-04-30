@@ -13,11 +13,11 @@ const TopBar = () => {
 
  <div className="topCenter">
     <nav className="topList">
-    <NavLink to='/' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Home</span> </NavLink>
+    <NavLink to='/home' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Home</span> </NavLink>
     <NavLink to='/about' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>About</span> </NavLink>
     <NavLink to='/hotels' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Hotels</span> </NavLink>
     <NavLink to='/contact' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Contact</span> </NavLink>
-    <NavLink to='/logout' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Logout</span> </NavLink>
+    <NavLink to='/login' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Login</span> </NavLink>
     </nav>
  </div>
  <div className="topRight">

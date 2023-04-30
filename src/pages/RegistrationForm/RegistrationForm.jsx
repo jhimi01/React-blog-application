@@ -1,6 +1,11 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
+import { AuthContext } from '../../provider/AuthProvider';
+import { Link } from 'react-router-dom';
 
 function RegistrationForm() {
+
+  const { createuserWithpass } = useContext(AuthContext)
+
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -8,7 +13,9 @@ function RegistrationForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Your registration logic here
+    
+  
+    
   };
 
   return (
@@ -30,6 +37,7 @@ function RegistrationForm() {
         <input type="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
       </div>
       <button type="submit">Register</button>
+      <p>do u already have an account?<Link to='/login'>Login</Link></p>
     </form>
   );
 }
