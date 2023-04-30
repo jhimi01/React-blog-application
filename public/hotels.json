@@ -4,70 +4,99 @@
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 100,
         "single_bed": true,
-        "double_bed": false
+        "double_bed": false,
+        "duration": "4 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 2,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 150,
         "single_bed": false,
-        "double_bed": true
+        "double_bed": true,
+        "duration": "3 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 3,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 120,
         "single_bed": true,
-        "double_bed": true
+        "double_bed": true,
+        "duration": "5 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 4,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 80,
         "single_bed": true,
-        "double_bed": false
+        "double_bed": false,
+        "duration": "4 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 5,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 200,
         "single_bed": false,
-        "double_bed": true
+        "double_bed": true,
+        "duration": "1 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 6,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 90,
         "single_bed": true,
-        "double_bed": false
+        "double_bed": false,
+        "duration": "2 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 7,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 175,
         "single_bed": false,
-        "double_bed": true
+        "double_bed": true,
+        "duration": "3 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 8,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 130,
         "single_bed": true,
-        "double_bed": true
+        "double_bed": true,
+        "duration": "5 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 9,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 110,
         "single_bed": true,
-        "double_bed": false
+        "double_bed": false,
+        "duration": "7 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."
+      
       },
       {
         "id": 10,
         "img": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkJTIwcm9vbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 190,
         "single_bed": false,
-        "double_bed": true
+        "double_bed": true,
+         "duration": "7 nights",
+        "description": "Donec ac imperdiet libero, in varius lectus. Curabitur non fringilla ipsum. Integer auctor faucibus purus vel vestibulum. Proin sagittis ultrices orci in eleifend."  
       }
     ]
   

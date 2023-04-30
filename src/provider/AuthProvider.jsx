@@ -7,6 +7,8 @@ const auth = getAuth(app);
 
 const AuthProvider = ({children})=>{
 
+  const user = {displayname: 'jhimi'}
+
   const createuserWithpass = (email, password) =>{
     return createUserWithEmailAndPassword(auth, email, password)
   }
@@ -14,6 +16,7 @@ const AuthProvider = ({children})=>{
 
 
     const authInfo = {
+      user,
       createuserWithpass,
      }
 

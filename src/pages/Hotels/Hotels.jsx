@@ -13,7 +13,8 @@ const Hotels = () => {
       <img src={hotel.img} alt='' />
       <div className="card-body">
         <h2>Price: {hotel.price}</h2>
-        <button className='btn'>book</button>
+        <p>For : {hotel.duration}</p>
+        <button className='btn'>Details</button>
       </div>
     </div>)}  
         </div>
