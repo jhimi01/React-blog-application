@@ -1,0 +1,74 @@
+[
+      {
+        "id": 1,
+        "img": "https://example.com/hotel1.jpg",
+        "price": 100,
+        "single_bed": true,
+        "double_bed": false
+      },
+      {
+        "id": 2,
+        "img": "https://example.com/hotel2.jpg",
+        "price": 150,
+        "single_bed": false,
+        "double_bed": true
+      },
+      {
+        "id": 3,
+        "img": "https://example.com/hotel3.jpg",
+        "price": 120,
+        "single_bed": true,
+        "double_bed": true
+      },
+      {
+        "id": 4,
+        "img": "https://example.com/hotel4.jpg",
+        "price": 80,
+        "single_bed": true,
+        "double_bed": false
+      },
+      {
+        "id": 5,
+        "img": "https://example.com/hotel5.jpg",
+        "price": 200,
+        "single_bed": false,
+        "double_bed": true
+      },
+      {
+        "id": 6,
+        "img": "https://example.com/hotel6.jpg",
+        "price": 90,
+        "single_bed": true,
+        "double_bed": false
+      },
+      {
+        "id": 7,
+        "img": "https://example.com/hotel7.jpg",
+        "price": 175,
+        "single_bed": false,
+        "double_bed": true
+      },
+      {
+        "id": 8,
+        "img": "https://example.com/hotel8.jpg",
+        "price": 130,
+        "single_bed": true,
+        "double_bed": true
+      },
+      {
+        "id": 9,
+        "img": "https://example.com/hotel9.jpg",
+        "price": 110,
+        "single_bed": true,
+        "double_bed": false
+      },
+      {
+        "id": 10,
+        "img": "https://example.com/hotel10.jpg",
+        "price": 190,
+        "single_bed": false,
+        "double_bed": true
+      }
+    ]
+  
+  
