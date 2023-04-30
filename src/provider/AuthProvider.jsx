@@ -9,8 +9,8 @@ const AuthProvider = ({children})=>{
 
   const user = {displayname: 'jhimi'}
 
-  const createuserWithpass = (email, password) =>{
-    return createUserWithEmailAndPassword(auth, email, password)
+  const createuserWithpass = (name, email, password) =>{
+    return createUserWithEmailAndPassword(auth,  email, password)
   }
 
 
