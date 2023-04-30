@@ -9,7 +9,7 @@ const Hotels = () => {
 
     return (
         <div className='cardContainer'>
-         {hotels.map(hotel =>  <div className="card">
+         {hotels.map(hotel =>  <div key={hotel.id} className="card">
       <img src={hotel.img} alt='' />
       <div className="card-body">
         <h2>Price: {hotel.price}</h2>

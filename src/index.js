@@ -13,6 +13,7 @@ import AuthProvider from './provider/AuthProvider';
 import LoginLayout from './layout/LoginLayout';
 import Login from './pages/Login/Login';
 import RegistrationForm from './pages/RegistrationForm/RegistrationForm';
+import PrivateRoutes from './routes/PrivateRoutes';
 
 const router = createBrowserRouter([
 {
@@ -46,8 +47,14 @@ const router = createBrowserRouter([
         loader: (() => fetch('/culter.json'))
       },{
         path: '/hotels',
-        element: <Hotels></Hotels>,
+        element: <PrivateRoutes><Hotels></Hotels></PrivateRoutes>,
         loader: (() => fetch('/hotels.json'))
+      }, {
+        path: '/login',
+        element: <Login></Login>
+      },{
+        path: '/register',
+        element: <RegistrationForm></RegistrationForm>
       }
     ]
   },

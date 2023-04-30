@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './TopBar.css'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { AuthContext } from '../provider/AuthProvider';
 const TopBar = () => {
-
+  const { user, logOut } = useContext(AuthContext)
     
+
+  const logouthandler =() => {
+    logOut()
+  }
 
     return (
          <div className="top">
@@ -20,12 +25,12 @@ const TopBar = () => {
     <NavLink to='/about' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>About</span> </NavLink>
     <NavLink to='/hotels' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Hotels</span> </NavLink>
     <NavLink to='/contact' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Contact</span> </NavLink>
-    <NavLink to='/login' className={({ isActive}) => isActive ? "active" : "spanish" }> <span>Login</span> </NavLink>
+    <Link to='/login' className="spanish">{user ? <span onClick={logouthandler}>Logout</span> : <span>Login</span> }</Link>
     </nav>
  </div>
  <div className="topRight">
- <img className='topimg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3jBdL0n-VqTTzcyfwLfRi0xxaK-ZNOc3sqw&usqp=CAU" alt="" />
- <i className="topsearchIcon fa-brands fa-searchengin"></i>
+ <img style={{marginRight: '15px'}} className='topimg' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3jBdL0n-VqTTzcyfwLfRi0xxaK-ZNOc3sqw&usqp=CAU" alt="" />
+  {user && <span>{user.email}</span>}
  </div>
             </div>
        
