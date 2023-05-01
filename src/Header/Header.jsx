@@ -20,7 +20,7 @@ const Header = () => {
       <div className="overlay">
         <div className="leftside">
           <span className="headerTitlesm">Love & Care</span>
-          <p>with</p>
+          <p style={{color: '#ffffffbb'}}>with</p>
           <span className="headerTitlelg">Bangladesh</span>
         </div>
 

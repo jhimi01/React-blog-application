@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../provider/AuthProvider';
+import './Login.css'
 
 
 const Login = ()=> {
@@ -31,8 +32,8 @@ const Login = ()=> {
 
   return (
     <form onSubmit={handleSubmit}>
-    <h1>Please Login</h1>
-      <div>
+    <h1 className='login-head'>Please Login</h1>
+      <div className='containerLogin'>
         <label htmlFor="email">Email:</label>
         <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
       </div>

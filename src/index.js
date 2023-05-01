@@ -15,6 +15,7 @@ import LoginLayout from './layout/LoginLayout';
 import Login from './pages/Login/Login';
 import RegistrationForm from './pages/RegistrationForm/RegistrationForm';
 import PrivateRoutes from './routes/PrivateRoutes';
+import Contact from './pages/Contact/Contact';
 
 const router = createBrowserRouter([
 {
@@ -54,6 +55,9 @@ const router = createBrowserRouter([
         path: '/hotels',
         element: <PrivateRoutes><Hotels></Hotels></PrivateRoutes>,
         loader: (() => fetch('/hotels.json'))
+      },{
+        path :'/contact',
+        element : <Contact></Contact>
       }
     ]
   },
