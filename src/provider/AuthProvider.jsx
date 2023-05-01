@@ -7,18 +7,22 @@ const auth = getAuth(app);
 
 const AuthProvider = ({children})=>{
 
-  const [user, setUser] = useState({})
+  const [user, setUser] = useState(null);
+  const [loader, setLoader] = useState(true);
 
   const createuserWithpass = (name, email, password) =>{
+    setLoader(false)
     return createUserWithEmailAndPassword(auth,  email, password)
   }
 
   const login =(email, password)=>{
+    setLoader(false)
     return signInWithEmailAndPassword(auth, email, password)
   }
 
   const logOut = ()=>{
-    signOut(auth)
+    setLoader(false)
+    return signOut(auth)
   }
 
   useEffect(()=>{
@@ -34,6 +38,7 @@ const AuthProvider = ({children})=>{
 
     const authInfo = {
       user,
+      loader,
       createuserWithpass,
       login,
       logOut

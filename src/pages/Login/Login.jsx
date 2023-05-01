@@ -13,7 +13,7 @@ const Login = ()=> {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [succes, setSucces] = useState('');
-  let from = location.state?.from?.pathname || "/hotels";
+  let from = location.state?.from?.pathname || "/";
   const handleSubmit = (e) => {
     e.preventDefault();
     // Your login logic here
@@ -31,6 +31,7 @@ const Login = ()=> {
 
   return (
     <form onSubmit={handleSubmit}>
+    <h1>Please Login</h1>
       <div>
         <label htmlFor="email">Email:</label>
         <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required />

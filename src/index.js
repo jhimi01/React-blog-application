@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
+  Navigate,
   RouterProvider, createBrowserRouter,
 } from "react-router-dom";
 // import router from './routes/Routes';
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   path:'/',
   element: <LoginLayout></LoginLayout>,
   children:[
+    {
+      path: '/',
+      element: <Navigate to='/home'></Navigate>
+    },
     {
     path: '/login',
     element: <Login></Login>
@@ -49,12 +54,6 @@ const router = createBrowserRouter([
         path: '/hotels',
         element: <PrivateRoutes><Hotels></Hotels></PrivateRoutes>,
         loader: (() => fetch('/hotels.json'))
-      }, {
-        path: '/login',
-        element: <Login></Login>
-      },{
-        path: '/register',
-        element: <RegistrationForm></RegistrationForm>
       }
     ]
   },

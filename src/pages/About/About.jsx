@@ -5,7 +5,7 @@ import "./About.css";
 
 const About = () => {
    const alldata = useLoaderData()
-   console.log(alldata)
+  //  console.log(alldata)
 
   return (
     <div className="main-container">
@@ -21,12 +21,12 @@ const About = () => {
       </nav>
       <div className="data-container">
         {alldata.map(data =>  
-        <div className="card">
+        <div key={data.id} className="card">
       <img src={data.image} alt={data.title} />
       <div className="card-body">
         <h2 className="card-title">{data.name}</h2>
         <p className="card-text">{data.description}</p>
-        <a href={data.link} className="btn btn-primary">{data.buttonText}</a>
+        <button className="btn btn-primary">details</button>
       </div>
     </div>
     )}

@@ -5,7 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 const Hotels = () => {
 
     const hotels = useLoaderData();
-    console.log(hotels)
+    // console.log(hotels)
 
     return (
         <div className='cardContainer'>
