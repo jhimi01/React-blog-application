@@ -64,14 +64,14 @@
         "id": 12,
         "name": "Art films",
         "description": "Bangladesh also has a growing industry of independent and art films, which focus on social and political issues and often have a more experimental style. These films are usually shown at film festivals and specialized theaters.",
-        "image": "./images/artdi.jpg",
+        "image": "https://i.ibb.co/JxbVLVr/artdi.jpg",
         "category": "cinema"
       },
       {
         "id": 7,
         "name": "Rabindra Sangeet",
         "description": "Rabindra Sangeet is a genre of Bangladeshi music that features songs written and composed by Rabindranath Tagore. It has a wide range of emotions and themes, and is popular among all age groups.",
-        "image": "./images/robind.jpg",
+        "image": "https://i.ibb.co/6PSvBvf/robind.jpg",
         "category": "music"
       },
       {

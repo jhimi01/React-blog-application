@@ -2,25 +2,33 @@
 // import { Link } from "react-router-dom";
 import { useLoaderData } from "react-router-dom";
 import "./About.css";
+import { useState } from "react";
 
 const About = () => {
    const alldata = useLoaderData()
-  //  console.log(alldata)
+  const [selectCategory, setSelectCategory] = useState('All')
+
+  const handleClick = (category) =>{
+    setSelectCategory(category)
+  }
+
+  const filterData = selectCategory === 'All'? alldata : alldata.filter(data => data.category === selectCategory)
+
 
   return (
     <div className="main-container">
       <nav className="navbar">
-          <ul>
-            <li>All</li>
-            <li>Sports</li>
-            <li>Food</li>
-            <li>Music</li>
-            <li>Cinema</li>
-            <li>Dance</li>
-          </ul>
+      <ul>
+          <li tabIndex="0" onClick={() => handleClick("All")}>All</li>
+          <li tabIndex="0" onClick={() => handleClick("food")}>Food</li>
+          <li tabIndex="0" onClick={() => handleClick("cinema")}>Cinema</li>
+          <li tabIndex="0" onClick={() => handleClick("sport")}>Sports</li>
+          <li tabIndex="0" onClick={() => handleClick("music")}>Music</li>
+          <li tabIndex="0" onClick={() => handleClick("dance")}>Dance</li>
+        </ul>
       </nav>
       <div className="data-container">
-        {alldata.map(data =>  
+        {filterData.map(data =>  
         <div key={data.id} className="card">
       <img src={data.image} alt={data.title} />
       <div className="card-body">
