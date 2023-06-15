@@ -17,20 +17,20 @@
     "id": 14,
     "name": "Animation",
     "description": "The animation industry in Bangladesh is still in its early stages, but it has a growing number of talented artists and studios producing short films and advertisements.",
-    "image": "./images/animation.jpg",
+    "image": "https://i.ibb.co/2vDDNqj/download.jpg",
     "category": "cinema"
   },
   {
     "id": 17,
     "name": "Fish dishes",
     "description": "Bangladesh is known for its variety of freshwater fish, and many traditional dishes feature fish as the main ingredient. Popular fish dishes include hilsa curry, pabda jhol, and rui maacher jhol.",
-    "image": "./images/fishcurry.jpg",
+    "image": "https://i.ibb.co/DLMmWBP/pexels-asit-naskar-9809033.jpg",
     "category": "food"
   },{
         "id": 18,
         "name": "Street food",
         "description": "Bangladesh has a thriving street food culture, with vendors selling a variety of snacks and quick meals on the streets of cities and towns. Popular street foods include fuchka, jhal muri, and chotpoti.",
-        "image": "./images/streetfood.jpg",
+        "image": "https://i.ibb.co/C8VtxZT/pexels-adrian-dorobantu-2170313.jpg",
         "category": "food"
       }, {
         "id": 22,
@@ -43,7 +43,7 @@
         "id": 19,
         "name": "Sweets and desserts",
         "description": "Bangladeshi cuisine also has a variety of sweet dishes and desserts, often made with milk, sugar, and spices. Popular sweets include rasgulla, sandesh, and mishti doi.",
-        "image": "./images/sweet.jpg",
+        "image": "https://i.ibb.co/m4XVjnr/pexels-vindhya-chandrasekharan-7406888.jpg",
         "category": "food"
       },
       {

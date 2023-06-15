@@ -104,6 +104,8 @@
     text-align: center;
     background: #d8d8d8;
     height: 80vh;
+    position: sticky;
+    top: 60px;
   }
   ul{
       padding: 0;
@@ -132,4 +134,5 @@ ul li:hover{
 .card img{
      height: 250px;
      width: 400px;
+     object-fit: cover;
 }
